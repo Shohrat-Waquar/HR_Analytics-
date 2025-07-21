@@ -1,46 +1,81 @@
-📊 HR Analytics Dashboard
+# HR Analytics Dashboard - Power BI Project
 
-📁 Project Overview
-The HR Analytics Dashboard is a Power BI project aimed at identifying and analyzing key factors related to employee attrition. This project transforms raw HR data into meaningful visual insights that help stakeholders make informed decisions to improve employee retention, satisfaction, and engagement.
+This project focuses on building an HR Analytics Dashboard using Power BI to visualize and analyze employee attrition. The goal is to uncover insights that can help HR teams reduce turnover and make better people decisions.
 
-🎯 Project Goals
-Analyze employee attrition across demographics, roles, and salary levels
+## 📊 Project Overview
 
-Discover patterns in employee satisfaction, work-life balance, and job roles
+The dataset contains records of 1,480 employees, including details such as:
+- Age, Gender, Department
+- Job Role, Education, Salary
+- Attrition (Yes/No)
+- Years at Company
+- Performance Ratings, Environment Satisfaction, etc.
 
-Provide HR teams with a data-driven decision-making tool
+### 🔧 Tools & Technologies Used
+- **Power BI** for data visualization and dashboard creation
+- **DAX (Data Analysis Expressions)** for calculated measures
+- **CSV** for dataset input
+- **Excel Power Query Editor** for data transformation
 
-Create an interactive and visual dashboard using Power BI
+---
 
-📊 Visual Elements in Dashboard
-KPI Cards: Show totals, averages, and rates
+## 💡 Dashboard Insights
 
-Bar Charts: Attrition by Age, Salary, Job Role
+| Metric | Value |
+|--------|-------|
+| Total Employees | 1,480 |
+| Total Attrition | 238 |
+| Attrition Rate | 16.1% |
+| Average Age | 37 Years |
+| Average Salary | ₹6.5K |
+| Average Years at Company | 7 Years |
 
-Pie & Donut Charts: Education field distribution
+---
 
-Line Chart: Attrition over tenure
+### 📌 Key Analysis Visuals
 
-Tree Map: Gender-based attrition
+- **Attrition by Age Group:** Highest attrition is in the **26–35** age group.
+- **Attrition by Job Role:** Most attrition from **Laboratory Technicians (62)** and **Sales Executives (58)**.
+- **Attrition by Education Field:** Life Sciences (37%) and Medical (26%) fields show higher attrition.
+- **Attrition by Salary:** Majority attrition seen in employees earning below ₹5K.
+- **Attrition by Years at Company:** Sharp drop after 3 years; peak at 1–2 years.
+- **Attrition by Gender:** Male employees had higher attrition than female employees.
 
-Table View: Attrition count across job roles
+---
 
-🛠️ Tools & Technologies
-Power BI Desktop
+## 📁 Dataset
 
-Power Query Editor (Data cleaning & transformation)
+File: `HR_Analytics.csv`
 
-DAX (Custom calculated columns and KPIs)
+Contains columns like:
+- `Age`, `Gender`, `EducationField`, `JobRole`, `MonthlyIncome`, `YearsAtCompany`, `Attrition`, etc.
 
-Excel / CSV (Raw data source)
+---
 
-✅ Future Enhancements
-Add machine learning model to predict attrition risk
+## 📌 How to Use
 
-Create drill-down pages for deeper department-level analysis
+1. Open `Power BI Desktop`
+2. Load the `HR_Analytics.csv` file
+3. Apply data transformations in Power Query
+4. Use DAX to calculate attrition rate and average metrics
+5. Create visuals for different HR metrics
+6. Build interactive slicers for departments, roles, and other filters
 
-Integrate live data sources for real-time HR monitoring
+---
 
-Export reports to PDF or publish to Power BI Service
+## 📢 Conclusion
+
+This project is a practical demonstration of how Power BI can be used in HR analytics to:
+- Monitor attrition trends
+- Identify at-risk segments
+- Make data-driven HR decisions
+
+---
+
+## 🔗 Connect with Me
+
+If you're interested in this project or want to collaborate on analytics work, feel free to reach out!
+
+
 
 
