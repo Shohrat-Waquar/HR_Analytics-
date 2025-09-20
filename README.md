@@ -46,7 +46,7 @@ The dataset contains records of 1,480 employees, including details such as:
 ## 📁 Dataset
 
 File: `HR_Analytics.csv`
-
+Dashboard Preview : https://github.com/Shohrat-Waquar/HR_Analytics-/blob/main/dashboard.png
 Contains columns like:
 - `Age`, `Gender`, `EducationField`, `JobRole`, `MonthlyIncome`, `YearsAtCompany`, `Attrition`, etc.
 
