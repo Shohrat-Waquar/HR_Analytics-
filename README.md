@@ -70,6 +70,7 @@ This project is a practical demonstration of how Power BI can be used in HR anal
 - Identify at-risk segments
 - Make data-driven HR decisions
 
+## Dashboard Preview : https://github.com/Shohrat-Waquar/HR_Analytics-/blob/main/dashboard.png
 ---
 
 ## 🔗 Connect with Me
